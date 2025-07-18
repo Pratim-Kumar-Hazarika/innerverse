@@ -15,11 +15,11 @@ export default function Index() {
         backgroundColor: "#000000",
         alignItems: "center",
         justifyContent: "space-around",
-        paddingVertical: 40,
+        paddingVertical: 30,
       }}
     >
       {/* Icon + App Name */}
-      <View className="flex-row items-center justify-center mt-12">
+      <View className="flex-row items-center justify-center  py-3">
         {" "}
         <Text
           style={{
@@ -64,7 +64,6 @@ export default function Index() {
           paddingVertical: 14,
           paddingHorizontal: 60,
           borderRadius: 30,
-          marginTop: 30,
         }}
         onPress={() => router.push("/(tabs)")}
       >
