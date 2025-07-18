@@ -21,10 +21,24 @@ export default function Index() {
       {/* Icon + App Name */}
       <View className="flex-row items-center justify-center mt-12">
         {" "}
-        <Text style={{ color: "#3B82F6", fontSize: 28, fontWeight: "bold" }}>
+        <Text
+          style={{
+            color: "#3B82F6",
+            fontSize: 38,
+            fontWeight: "bold",
+            fontFamily: "ArianaVioleta",
+          }}
+        >
           Inner~
         </Text>
-        <Text style={{ color: "#EC4899", fontSize: 28, fontWeight: "bold" }}>
+        <Text
+          style={{
+            color: "#EC4899",
+            fontSize: 38,
+            fontWeight: "bold",
+            fontFamily: "ArianaVioleta",
+          }}
+        >
           verse
         </Text>
       </View>
