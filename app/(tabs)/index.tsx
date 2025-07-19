@@ -73,8 +73,12 @@ export default function HomeScreen() {
                     <Text style={styles.entryTitle} numberOfLines={1}>
                       {entry.title}
                     </Text>
-                    <Text style={styles.entryDescription} numberOfLines={2}>
-                      {truncateText(entry.content, 80)}
+                    <Text
+                      className=" truncate"
+                      style={styles.entryDescription}
+                      numberOfLines={1}
+                    >
+                      {entry.content}
                     </Text>
                     <View style={styles.entryMeta}>
                       {category && (
