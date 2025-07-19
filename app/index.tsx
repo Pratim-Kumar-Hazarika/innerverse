@@ -26,17 +26,15 @@ export default function Index() {
             color: "#3B82F6",
             fontSize: 38,
             fontWeight: "bold",
-            fontFamily: "ArianaVioleta",
           }}
         >
-          Inner~
+          Inner/
         </Text>
         <Text
           style={{
             color: "#EC4899",
             fontSize: 38,
             fontWeight: "bold",
-            fontFamily: "ArianaVioleta",
           }}
         >
           verse
@@ -45,7 +43,7 @@ export default function Index() {
 
       <View style={{ alignItems: "center" }}>
         <Image
-          source={require("../assets/images/logo1.png")}
+          source={require("../assets/images/innerverse.png")}
           style={{ width: 388, height: 388, borderRadius: 16 }}
         />
       </View>
@@ -53,7 +51,18 @@ export default function Index() {
       {/* Welcome & Description */}
       <View style={{ paddingHorizontal: 30, alignItems: "center" }}>
         <Text style={{ color: "#ccc", fontSize: 18, textAlign: "center" }}>
-          Capture your thoughts and feelings in a safe, offline space.
+          Capture quiet moments of thought and feelings held safely, offline,
+          and only for you.
+        </Text>
+        <Text
+          style={{
+            color: "#aaa",
+            fontSize: 16,
+            textAlign: "center",
+            marginTop: 10,
+          }}
+        >
+          Everything is stored locally on your device.
         </Text>
       </View>
 
